@@ -20,17 +20,8 @@ public class Test {
     public static final int COUNT_OBJ = 2000000;
 
     public static void main(String[] args) {
-        testArrayList = new ArrayList<>();
-        testLinkedList = new LinkedList<>();
-
-        insertSomeDummyData(testLinkedList);
-        insertSomeDummyData(testArrayList);
-
-        checkInsertionPerformance(testLinkedList);  //O(1)
-        checkInsertionPerformance(testArrayList);   //O(1) -> O(n)
-
-        checkPerformanceForFinding(testArrayList);  // O(1)
-        checkPerformanceForFinding(testLinkedList); // O(n)
+         Double a = 310.9-82.41;
+         System.out.println(a);
 
     }
 
