@@ -19,12 +19,12 @@ public class TestCase {
 		Solution solution = spy(  new Solution());
 		List<String> lines = FileUtils.readLines(file);
 		//int[] x = new int[5000*100000*10];
-		 doReturn(new Integer(Integer.parseInt(lines.get(0)))).when(solution).getLengthN();
-		 doReturn(convert(lines.get(1).trim().split(" "))).when(solution).getArrayN(Long.parseLong(lines.get(0)));
-		 doReturn(new Integer(Integer.parseInt(lines.get(2)))).when(solution).getLengthQ();
-		 doReturn(convert(lines.get(3).trim().split(" "))).when(solution).getArrayQ(Long.parseLong(lines.get(2)));
+		// doReturn(new Integer(Integer.parseInt(lines.get(0)))).when(solution).getLengthN();
+		// doReturn(convert(lines.get(1).trim().split(" "))).when(solution).getArrayN(Long.parseLong(lines.get(0)));
+		// doReturn(new Integer(Integer.parseInt(lines.get(2)))).when(solution).getLengthQ();
+		// doReturn(convert(lines.get(3).trim().split(" "))).when(solution).getArrayQ(Long.parseLong(lines.get(2)));
 		
-		 System.out.println(solution.getLengthN()+" "+solution.getLengthQ());
+		// System.out.println(solution.getLengthN()+" "+solution.getLengthQ());
 		solution.execute();
  		System.out.println("aa");
 	}
