@@ -14,7 +14,7 @@ import org.junit.Test;
 public class TestCase {
 	
 	@Test
-	public void startTEST() throws IOException, URISyntaxException{
+	public void startTEST() throws IOException, URISyntaxException{//aaaaaaaaaa
 		File file = new File("src\\"+this.getClass().getPackage().getName().replace(".", "\\")+"\\sample.txt");
 		//System.out.println("src\\"+this.getClass().getPackage().getName().replace(".", "\\")+"\\sample.txt");
 		
