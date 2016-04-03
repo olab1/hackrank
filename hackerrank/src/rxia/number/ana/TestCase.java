@@ -14,7 +14,7 @@ import org.junit.Test;
 public class TestCase {
 	
 	@Test
-	public void startTEST() throws IOException{
+	public void startTEST() throws IOException{//aaaaa
 		File file = new File("src\\rxia\\play\\number/sample.txt");
 		//THIS IS RXIA TEST
 		Solution solution = spy(  new Solution());
