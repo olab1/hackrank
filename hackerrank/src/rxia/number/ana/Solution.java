@@ -6,7 +6,7 @@ public class Solution {
 
 	static Scanner scanner = new Scanner(System.in);
 	//I am here
-	public static void main(String[] args) {
+	public static void main(String[] args) { //aa
 		/*
 		 * Enter your code here. Read input from STDIN. Print output to STDOUT.
 		 * Your class should be named Solution.

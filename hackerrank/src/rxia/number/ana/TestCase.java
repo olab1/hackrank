@@ -14,11 +14,10 @@ import org.junit.Test;
 public class TestCase {
 	
 	@Test
-	public void startTEST() throws IOException, URISyntaxException{//aaaaaaaaaa
-		File file = new File("src\\"+this.getClass().getPackage().getName().replace(".", "\\")+"\\sample.txt");
-		//System.out.println("src\\"+this.getClass().getPackage().getName().replace(".", "\\")+"\\sample.txt");
-		
-		Solution solution = spy(new Solution());
+	public void startTEST() throws IOException{
+		File file = new File("src\\rxia\\play\\number/sample.txt");
+		//THIS IS RXIA TEST
+		Solution solution = spy(  new Solution());
 		List<String> lines = FileUtils.readLines(file);
 		System.out.println(lines);
 		//int[] x = new int[5000*100000*10];
