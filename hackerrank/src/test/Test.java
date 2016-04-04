@@ -14,7 +14,7 @@ public class Test {
         rnd = new Random();
     }
 
-
+    //dadada
     static List<String> testArrayList;
     static List<String> testLinkedList;
     public static final int COUNT_OBJ = 2000000;
