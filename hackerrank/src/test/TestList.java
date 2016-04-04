@@ -7,7 +7,7 @@ import java.util.List;
 public class TestList {
 	
 	public static void main(String[] args) {
-		
+		 // my list is good
 		 List<Integer> list = 
 				new ArrayList<Integer>();
 				//new LinkedList<Integer>();
@@ -32,3 +32,4 @@ public class TestList {
 		System.out.println(end-start);
 	}
 }
+ 
