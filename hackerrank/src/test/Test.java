@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
-
+//haha it is me
 public class Test {
 
     private static Random rnd;
@@ -58,5 +58,4 @@ public class Test {
         System.out.println(String.format("%s time passed at searching:%d", list.getClass().getSimpleName(), (finishedTime - startTime)));
 
     }
-
-}
+ }
