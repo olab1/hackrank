@@ -22,7 +22,7 @@ public class Test {
     public static void main(String[] args) {
          Double a = 310.9-82.41;
          System.out.println(a);
-
+//fsfsf
     }
 
 
