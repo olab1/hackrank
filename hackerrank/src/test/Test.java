@@ -22,10 +22,9 @@ public class Test {
     public static void main(String[] args) {
          Double a = 310.9-82.41;
          System.out.println(a);
-//fsfsf
+ 
     }
-
-
+    // wo de ti jiao
     public static void insertSomeDummyData(List<String> list) {
         for (int i = COUNT_OBJ; i-- > 0; ) {
             list.add(new String("" + i));
