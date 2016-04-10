@@ -24,7 +24,7 @@ public class Test {
          System.out.println(a);
  
     }
-    // wo de ti jiao
+    // wo de ti jiao 1
     public static void insertSomeDummyData(List<String> list) {
         for (int i = COUNT_OBJ; i-- > 0; ) {
             list.add(new String("" + i));
